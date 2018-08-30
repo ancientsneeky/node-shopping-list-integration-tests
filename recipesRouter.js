@@ -70,12 +70,13 @@ router.put("/:id", (req, res) => {
     return res.status(400).send(message);
   }
   console.log(`Updating shopping list item \`${req.params.id}\``);
-  Recipes.update({
+    const newIngrediant = {
     id: req.params.id,
     name: req.body.name,
     ingredients: req.body.ingredients
-  });
-  res.status(204).end();
+  };
+  Recipes.update(newIngrediant);
+  res.send(newIngrediant).status(200).end();
 });
 
 module.exports = router;
