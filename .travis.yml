@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: lvC02+ekHHyV5IXhj6bRRJnL0XRJ5HnJtOXn54ER3tHfKNXamFqht5UKfddRNoMg86QNwjt/+lSd8IZAOtS4ZGhg/4HLW7s/zQTZxB4ZTRRikNhyMo2oWQp3RSLGHz4NklSGLHgA1tXqHo06inlecTSR2Ubz94B3mth/qfOKxQtE+0GKWKhM+Ajk+QniPe0UDIFReU9n5YTubTB1FDsCyfepb+6IvscPh/x2+ymn1/X4cauZV1X+deT1yjwY8asQEJwSZq2i9cqyz0ricc2W891kO70shAGVhsOgKANyXjkOG8uv3MEC9RwMYCkxL7+2JrEbiWgE+fIeRpQws2FJr9uDpwKY2L2e+Ek4gFggAjPI5SrwZNbg9gd3eQYRkCqTu9UesPROOYeB25GA4rONBAOG+1d40+Jbtssw6XxqzucXMxi+g/LUDLZ8Oq+OIoQtTx5ubMyK1sAuSQhL5yzTQtnHLrHPNydup7Y37nSen5I7+aESVtIaXh5N6b82W79CaVJsdl7RsAv4mTcnMgtxkGsLGUOgDPp3sDB9yg0pgfsRPQZmpiS72GQuvb8jr3oASLyRxfPi49Si5wunRJL02KpXNqfotJr/gCPc9+yEJ7+B+PXo3L51Dt262ZrmcjOiswEK89TBAozVa2mvBRyCARRsyOwgpCy5dqk3Qx0oWzg=
-  app: https://cryptic-stream-93669.herokuapp.com/
+  app: cryptic-stream-93669
   on:
     repo: ancientsneeky/node-shopping-list-integration-tests
